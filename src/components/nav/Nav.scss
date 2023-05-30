@@ -1,0 +1,67 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // border: 1px red dotted;
+  background-color: #fff;
+  width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &__logo {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+
+    .header1 {
+      color: #383e56;
+    }
+
+    .header2 {
+      color: #fe5265;
+    }
+  }
+
+  &__links {
+    display: flex;
+    width: 800px;
+    gap: 3px;
+    justify-content: space-around;
+    // border: red 1px solid;
+    text-decoration: none;
+    color: #2d355b;
+    font-size: 16px;
+
+    .beef {
+      display: flex;
+      gap: 3px;
+
+      svg {
+        width: 16px;
+        color: red;
+      }
+    }
+
+    .chicken {
+      display: flex;
+      gap: 3px;
+
+      svg {
+        width: 16px;
+        color: red;
+      }
+    }
+  }
+
+  &__actions {
+    display: flex;
+    // border: green 1px solid;
+    gap: 2px;
+    justify-content: space-between;
+    width: 150px;
+
+    img {
+      width: 20px;
+    }
+  }
+}
