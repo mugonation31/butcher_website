@@ -76,11 +76,13 @@ export default function Nav() {
       </div>
       {/* NAV-LINKS ENDS HERE */}
 
+      {/* NAV-ACTIONS STARTS HERE */}
       <div className="nav__actions">
         <img src={user} alt="" />
         <img src={heart} alt="" />
         <img src={shopping} alt="" />
       </div>
+      {/* NAV-ACTIONS ENDS HERE */}
     </nav>
   );
 }
