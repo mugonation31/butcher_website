@@ -1,14 +1,6 @@
 /* src/styles/fonts.css */
 
 @font-face {
-  font-family: "Jost";
-  font-weight: 600;
-  src: url("./assets/fonts/Jost-SemiBold.ttf") format("truetype"); /* Adjust the file path and format accordingly */
-  /* Add additional src declarations for other file formats if applicable */
-  /* Add font-weight and font-style declarations if needed */
-}
-
-@font-face {
   font-family: "Jost-Regular";
   font-weight: 400;
   src: url("./assets/fonts/Jost-Regular.ttf") format("truetype"); /* Adjust the file path and format accordingly */
@@ -16,10 +8,44 @@
   /* Add font-weight and font-style declarations if needed */
 }
 
+@font-face {
+  font-family: "Jost-Medium";
+  font-weight: 500;
+  src: url("./assets/fonts/Jost-Medium.ttf") format("truetype"); /* Adjust the file path and format accordingly */
+  /* Add additional src declarations for other file formats if applicable */
+  /* Add font-weight and font-style declarations if needed */
+}
+
+@font-face {
+  font-family: "Jost-SemiBold";
+  font-weight: 600;
+  src: url("./assets/fonts/Jost-SemiBold.ttf") format("truetype"); /* Adjust the file path and format accordingly */
+  /* Add additional src declarations for other file formats if applicable */
+  /* Add font-weight and font-style declarations if needed */
+}
+
+@font-face {
+  font-family: "Jost-ExtraBold";
+  font-weight: 800;
+  src: url("./assets/fonts/Jost-ExtraBold.ttf") format("truetype"); /* Adjust the file path and format accordingly */
+  /* Add additional src declarations for other file formats if applicable */
+  /* Add font-weight and font-style declarations if needed */
+}
+
 body {
-  font-family: "Jost";
+  font-family: "Jost-SemiBold";
 
   a {
     font-family: "Jost-Regular";
+  }
+
+  h2 {
+    font-family: "Jost-ExtraBold";
+  }
+
+  p {
+    padding: 0;
+    margin: 0;
+    font-family: "Jost-Medium";
   }
 }

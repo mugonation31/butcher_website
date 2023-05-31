@@ -9,8 +9,8 @@ export default function Nav() {
     <nav className="nav">
       {/* lOGO START HERE */}
       <div className="nav__logo">
-        <header className="header1">MEAT</header>
-        <header className="header2">FIT</header>
+        <header className="name1">MEAT</header>
+        <header className="name2">FIT</header>
       </div>
       {/* lOGO ENDS HERE */}
 

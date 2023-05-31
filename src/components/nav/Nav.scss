@@ -2,25 +2,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  // border: 1px red dotted;
   background-color: #fff;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 1700px;
+  padding: 10px 10px 10px 10px;
+  max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
 
   &__logo {
     display: flex;
     justify-content: space-around;
-    // border: 1px red dotted;
     font-size: 24px;
 
-    .header1 {
+    .name1 {
       color: #383e56;
     }
 
-    .header2 {
+    .name2 {
       color: #fe5265;
     }
   }
@@ -30,7 +27,6 @@
     width: 800px;
     gap: 3px;
     justify-content: space-around;
-    // border: red 1px solid;
     text-decoration: none;
     color: #2d355b;
     font-size: 16px;
@@ -58,7 +54,6 @@
 
   &__actions {
     display: flex;
-    // border: green 1px solid;
     gap: 2px;
     justify-content: space-between;
     width: 150px;
