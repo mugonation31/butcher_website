@@ -3,7 +3,7 @@
 @font-face {
   font-family: "Jost-Regular";
   font-weight: 400;
-  src: url("./assets/fonts/Jost-Regular.ttf") format("truetype"); /* Adjust the file path and format accordingly */
+  src: url("./assets/fonts/jost/Jost-Regular.ttf") format("truetype"); /* Adjust the file path and format accordingly */
   /* Add additional src declarations for other file formats if applicable */
   /* Add font-weight and font-style declarations if needed */
 }
@@ -11,7 +11,7 @@
 @font-face {
   font-family: "Jost-Medium";
   font-weight: 500;
-  src: url("./assets/fonts/Jost-Medium.ttf") format("truetype"); /* Adjust the file path and format accordingly */
+  src: url("./assets/fonts/jost/Jost-Medium.ttf") format("truetype"); /* Adjust the file path and format accordingly */
   /* Add additional src declarations for other file formats if applicable */
   /* Add font-weight and font-style declarations if needed */
 }
@@ -19,7 +19,7 @@
 @font-face {
   font-family: "Jost-SemiBold";
   font-weight: 600;
-  src: url("./assets/fonts/Jost-SemiBold.ttf") format("truetype"); /* Adjust the file path and format accordingly */
+  src: url("./assets/fonts/jost/Jost-SemiBold.ttf") format("truetype"); /* Adjust the file path and format accordingly */
   /* Add additional src declarations for other file formats if applicable */
   /* Add font-weight and font-style declarations if needed */
 }
@@ -27,12 +27,30 @@
 @font-face {
   font-family: "Jost-ExtraBold";
   font-weight: 800;
-  src: url("./assets/fonts/Jost-ExtraBold.ttf") format("truetype"); /* Adjust the file path and format accordingly */
+  src: url("./assets/fonts/jost/Jost-ExtraBold.ttf") format("truetype"); /* Adjust the file path and format accordingly */
   /* Add additional src declarations for other file formats if applicable */
   /* Add font-weight and font-style declarations if needed */
 }
 
+@font-face {
+  font-family: "Just-ExtraBold";
+  font-weight: 800;
+  src: url("./assets/fonts/jost/Jost-ExtraBold.ttf") format("truetype"); /* Adjust the file path and format accordingly */
+  /* Add additional src declarations for other file formats if applicable */
+  /* Add font-weight and font-style declarations if needed */
+}
+
+@font-face {
+  font-family: "JustAnotherHand-Regular";
+  font-weight: 300;
+  src: url("./assets/fonts/JustAnotherHand/JustAnotherHand-Regular.ttf")
+    format("truetype");
+}
+
 body {
+  padding: 0;
+  margin: 0;
+
   font-family: "Jost-SemiBold";
 
   a {
@@ -41,6 +59,9 @@ body {
 
   h2 {
     font-family: "Jost-ExtraBold";
+    padding: 0;
+    margin: 0;
+    line-height: 0;
   }
 
   p {
@@ -48,4 +69,10 @@ body {
     margin: 0;
     font-family: "Jost-Medium";
   }
+
+  .since {
+    font-family: "JustAnotherHand-Regular";
+  }
+
+  
 }
