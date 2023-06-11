@@ -1,0 +1,23 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .logos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    border: #dbdff0 1px solid;
+    border-left: none;
+    border-right: none;
+    width: 900px;
+    height: 120px;
+    margin-top: 50px;
+
+    img {
+      width: 120px;
+      height: 31px;
+    }
+  }
+}
