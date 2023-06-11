@@ -1,5 +1,4 @@
 .hero {
-  border: green 2px solid;
   display: flex;
   max-width: 100%;
   justify-content: space-around;
@@ -7,37 +6,120 @@
   z-index: -1;
   padding-top: 20px;
   background-color: #ffe3e5;
+  padding-bottom: 50px;
 
   &__inner {
-    display: flex;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
     width: 1200px;
-    border: 1px solid red;
-    .since {
-      color: #6f818d;
-      font-size: 20px;
-      word-spacing: 5px;
-    }
+    // border: 1px solid red;
 
     .detail {
       border: 1px red dotted;
-      width: fit-content;
-    }
-    .headline {
-      // border: 1px solid black;
-      width: 400px;
-      margin-bottom: 10px;
+      // width: fit-content;
 
-      h2 {
-        color: #272d41;
-        font-size: 40px;
-        padding: 0;
-        line-height: 45px;
+      .since {
+        display: inline-flex;
+        color: #6f818d;
+        font-size: 18px;
+        word-spacing: 5px;
+        letter-spacing: 3px;
+        margin-bottom: 13px;
+      }
+
+      .headline {
+        h2 {
+          color: #272d41;
+          font-size: 40px;
+          padding: 0;
+          line-height: 45px;
+          width: 400px;
+          font-family: "Just-ExtraBold";
+        }
+      }
+
+      .dummy {
+        color: #6f818d;
+        font-family: "Jost-Regular";
+        font-size: 18px;
+        width: 490px;
+        margin-top: 15px;
+      }
+
+      .button {
+        display: flex;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        height: 55px;
+        width: 220px;
+        margin-top: 25px;
+        margin-left: 10px;
+        border-radius: 30px;
+        background-color: #e31244;
+        color: #ffff;
+        font-family: "Jost-SemiBold";
+        font-size: 15px;
+
+        svg {
+          width: 18px;
+        }
       }
     }
 
-    .dummy {
-      color: #6f818d;
-      font-family: "Jost-Regular";
+    .reviews {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      border: solid 1px #d8d8dc;
+      border-right: none;
+      height: 100px;
+      width: 30px;
+      margin-top: 25px;
+
+      .capterra {
+        position: absolute;
+        .stars {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+
+        span {
+          color: #383e56;
+          font-family: "Jost-Bold";
+        }
+      }
+
+      .food {
+        position: absolute;
+        left: 580px;
+        .stars {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+
+        span {
+          color: #383e56;
+          font-family: "Jost-Bold";
+        }
+      }
+
+      .logos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 105px;
+
+        margin-top: 40px;
+      }
+    }
+
+    &__steak {
+      border: solid 1px blue;
     }
   }
 }

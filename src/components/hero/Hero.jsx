@@ -1,21 +1,29 @@
 import React from "react";
 import "./Hero.scss";
+import star1 from "../../assets/images/star1.png";
+import star2 from "../../assets/images/star2.png";
+import star3 from "../../assets/images/star3.png";
+import star4 from "../../assets/images/star4.png";
+import star5 from "../../assets/images/star5.png";
+import Capterra from "../../assets/images/Capterra.png";
+import Food from "../../assets/images/Food.png";
+import Steak from "../../assets/images/Steak.png";
 
 export default function Hero() {
   return (
     <div className="hero">
       <div className="hero__inner">
         <div className="detail">
-          <span className="since">FRESH MEAT SINCE 1997</span>
+          <div className="since">FRESH MEAT SINCE 1997</div>
           <span className="headline">
             <h2>Get fresh meat in your doorstep</h2>
           </span>
-          <span className="dummy">
+          <p className="dummy">
             Simply dummy text of the printing and typesetting industry. Lorem
             Ipsum has been the industry's standard dummy
-          </span>
+          </p>
 
-          <div className="hero__button">
+          <div className="button">
             See Our Collection
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -34,33 +42,41 @@ export default function Hero() {
           </div>
           <div className="reviews">
             <div className="capterra">
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <span>4.9/5 - From 213 Reviews</span>
-              <div className="logo1">
-                <img src="" alt="" />
+              <div className="stars">
+                <img src={star1} alt="" />
+                <img src={star2} alt="" />
+                <img src={star3} alt="" />
+                <img src={star4} alt="" />
+                <img src={star5} alt="" />
               </div>
+              <span>4.9/5 - From 213 Reviews</span>
             </div>
-          </div>
-          <div className="food">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <span>4.9/5 - From 213 Reviews</span>
-            <div className="logo2">
-              <img src="" alt="" />
+
+            <div className="food">
+              <div className="stars">
+                <img src={star1} alt="" />
+                <img src={star2} alt="" />
+                <img src={star3} alt="" />
+                <img src={star4} alt="" />
+                <img src={star5} alt="" />
+              </div>
+              <span>4.9/5 - From 213 Reviews</span>
+            </div>
+
+            <div className="logos">
+              <div className="logo1">
+                <img src={Capterra} alt="" />
+              </div>
+
+              <div className="logo2">
+                <img src={Food} alt="" />
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="hero__boxes">
-          <div className="left"></div>
-          <div className="right"></div>
+        <div className="hero__steak">
+          <img src={Steak} alt="" />
         </div>
       </div>
     </div>
