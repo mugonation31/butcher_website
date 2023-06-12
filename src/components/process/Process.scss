@@ -1,12 +1,11 @@
 .process {
-  width: 1200px;
+  // width: 1200px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
   border: green dotted 2px;
 
   &__header {
-    border: red dotted 1px;
     width: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -25,7 +24,6 @@
       }
 
       h2 {
-        // border: blue 1px dotted;
         font-family: "Jost-Bold";
         color: #272d41;
         font-size: 25px;
@@ -36,6 +34,114 @@
         color: #989fbc;
         font-family: "Jost-Regular";
         font-size: 18px;
+      }
+    }
+  }
+
+  &__steps {
+    margin-top: 50px;
+    position: relative;
+
+    .icon1 {
+      position: absolute;
+      top: 60%;
+      z-index: -1;
+    }
+
+    .icon2 {
+      position: absolute;
+      left: 97%;
+      z-index: -1;
+    }
+
+    .order {
+      display: flex;
+      justify-content: space-between;
+      width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+
+      .choose {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+
+        img {
+          width: 100px;
+        }
+
+        span {
+          font-family: "Jost-SemiBold";
+          font-size: 16px;
+          line-height: 40px;
+        }
+
+        p {
+          font-family: "Jost-Regular";
+          font-size: 15px;
+          text-align: center;
+          word-spacing: normal;
+          padding: 0;
+          color: #989fbc;
+          padding: 0px;
+          width: 300px;
+        }
+      }
+
+      .quick {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          width: 100px;
+        }
+
+        span {
+          font-family: "Jost-SemiBold";
+          font-size: 16px;
+          line-height: 40px;
+        }
+
+        p {
+          font-family: "Jost-Regular";
+          font-size: 15px;
+          text-align: center;
+          color: #989fbc;
+          width: 300px;
+        }
+      }
+
+      .doorstep {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          width: 100px;
+        }
+
+        span {
+          font-family: "Jost-SemiBold";
+          font-size: 16px;
+          line-height: 40px;
+        }
+
+        p {
+          font-family: "Jost-Regular";
+          font-size: 15px;
+          text-align: center;
+          color: #989fbc;
+          width: 300px;
+        }
+      }
+
+      .arrow {
+        color: #989fbc;
+        width: 50px;
+        margin-bottom: 60px;
       }
     }
   }
