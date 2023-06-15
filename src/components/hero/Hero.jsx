@@ -41,35 +41,35 @@ export default function Hero() {
             </svg>
           </div>
           <div className="reviews">
-            <div className="capterra">
-              <div className="stars">
-                <img src={star1} alt="" />
-                <img src={star2} alt="" />
-                <img src={star3} alt="" />
-                <img src={star4} alt="" />
-                <img src={star5} alt="" />
-              </div>
-              <span>4.9/5 - From 213 Reviews</span>
-            </div>
+            <div className="two">
+              <div className="capterra">
+                <div className="stars">
+                  <img src={star1} alt="" />
+                  <img src={star2} alt="" />
+                  <img src={star3} alt="" />
+                  <img src={star4} alt="" />
+                  <img src={star5} alt="" />
+                </div>
+                <span>4.9/5 - From 213 Reviews</span>
 
-            <div className="food">
-              <div className="stars">
-                <img src={star1} alt="" />
-                <img src={star2} alt="" />
-                <img src={star3} alt="" />
-                <img src={star4} alt="" />
-                <img src={star5} alt="" />
-              </div>
-              <span>4.9/5 - From 213 Reviews</span>
-            </div>
-
-            <div className="logos">
-              <div className="logo1">
-                <img src={Capterra} alt="" />
+                <div className="logo1">
+                  <img src={Capterra} alt="" />
+                </div>
               </div>
 
-              <div className="logo2">
-                <img src={Food} alt="" />
+              <div className="food">
+                <div className="stars">
+                  <img src={star1} alt="" />
+                  <img src={star2} alt="" />
+                  <img src={star3} alt="" />
+                  <img src={star4} alt="" />
+                  <img src={star5} alt="" />
+                </div>
+                <span>4.9/5 - From 213 Reviews</span>
+
+                <div className="logo2">
+                  <img src={Food} alt="" />
+                </div>
               </div>
             </div>
           </div>

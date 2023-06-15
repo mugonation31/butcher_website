@@ -76,32 +76,44 @@
       width: 30px;
       margin-top: 25px;
 
-      .capterra {
-        position: absolute;
-        .stars {
+      .two {
+        display: flex;
+        gap: 50px;
+
+        .capterra {
           display: flex;
-          align-items: center;
-          gap: 10px;
+          flex-direction: column;
+          gap: 5px;
+          width: 250px;
+
+          .stars {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+          }
+
+          span {
+            color: #383e56;
+            font-family: "Jost-Bold";
+          }
         }
 
-        span {
-          color: #383e56;
-          font-family: "Jost-Bold";
-        }
-      }
-
-      .food {
-        position: absolute;
-        left: 580px;
-        .stars {
+        .food {
           display: flex;
-          align-items: center;
-          gap: 10px;
-        }
+          flex-direction: column;
+          gap: 5px;
+          width: 250px;
 
-        span {
-          color: #383e56;
-          font-family: "Jost-Bold";
+          .stars {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+          }
+
+          span {
+            color: #383e56;
+            font-family: "Jost-Bold";
+          }
         }
       }
 

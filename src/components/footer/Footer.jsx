@@ -40,13 +40,13 @@ export default function Footer() {
               <span className="name1">MEAT</span>
               <span className="name2">FIT</span>
             </div>
-            <span>A Trusted Meat Shop</span>
+            <span className="trusted">A Trusted Meat Shop</span>
           </div>
           <input type="email" placeholder="Your Email Address" />
           <button>Subscribe</button>
 
           <div className="copyright">
-            <p>CopyRight 2021 Alright reserved by Meatfit</p>
+            <span>CopyRight 2021 Alright reserved by Meatfit</span>
           </div>
         </div>
         <div className="find">
@@ -56,7 +56,7 @@ export default function Footer() {
             </div>
 
             <div className="span">
-              <span>HelloMeat@gmai.com</span>
+              <span>HelloMeat@gmail.com</span>
               <span>Opening Hours</span>
               <span>Location</span>
               <span>097 56568 77</span>

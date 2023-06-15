@@ -1,24 +1,23 @@
 .footer {
   width: 100%;
+  margin-top: 150px;
   left: 0;
   bottom: 0;
-  // position: fixed;
   background-color: #ffe7e8;
 
-  // .elipse {
-  //   position: absolute;
+  .elipse {
+    position: absolute;
+    z-index: -1;
+    color: green;
+  }
 
-  //   z-index: -1;
-  // }
-
-  // .new1 {
-  //   position: absolute;
-  //   left: 97%;
-  //   z-index: -1;
-  // }
+  .new1 {
+    // position: absolute;
+    // top: 40%;
+    z-index: -1;
+  }
 
   &__wrap {
-    border: red 1px solid;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,15 +71,68 @@
     }
 
     .subscribe {
-      border: 1px red dotted;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
-      
+      .header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 30px;
+
+        .small-logo {
+          font-size: 24px;
+
+          .name1 {
+            color: #383e56;
+          }
+
+          .name2 {
+            color: #fe5265;
+          }
+        }
+
+        .trusted {
+          font-family: "JustAnotherHand-Regular";
+          font-size: 18px;
+        }
+      }
+
+      input {
+        font-family: "Jost-Regular";
+        font-size: 15px;
+        color: #8a89a1;
+        background-color: #fff;
+        padding-left: 20px;
+        width: 310px;
+        height: 55px;
+        border: none;
+        border-radius: 30px;
+        margin-bottom: 15px;
+      }
+
+      button {
+        background-color: #3f4767;
+        font-family: "Jost-SemiBold";
+        color: #fff;
+        border-radius: 30px;
+        border: none;
+        width: 210px;
+        height: 50px;
+        margin-bottom: 50px;
+      }
+
+      .copyright {
+        font-family: "Jost-Regular";
+        color: #979ba9;
+        font-size: 13px;
+      }
     }
 
     .find {
       display: flex;
       gap: 100px;
-      border: 1px green dotted;
 
       .contact {
         .heading {
