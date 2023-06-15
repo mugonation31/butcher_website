@@ -1,0 +1,64 @@
+.customer {
+  margin-top: 100px;
+
+  &__feedback {
+    display: flex;
+    gap: 25px;
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .picture {
+      .gouch {
+        z-index: -1;
+      }
+
+      .quote {
+        position: absolute;
+        right: 73%;
+      }
+    }
+
+    .word {
+      font-family: "Jost-SemiBold";
+      font-size: 23px;
+      max-width: 500px;
+    }
+
+    .scroll {
+      display: flex;
+      align-items: center;
+      width: 985px;
+      justify-content: space-between;
+
+      .who {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .name {
+        font-family: "Jost-Medium";
+        font-size: 15px;
+      }
+
+      .title {
+        font-family: "Jost-Regular";
+        font-size: 12px;
+      }
+
+      .buttons {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+    }
+  }
+
+  &__more {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+}

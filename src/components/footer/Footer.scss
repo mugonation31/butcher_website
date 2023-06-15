@@ -1,0 +1,129 @@
+.footer {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  // position: fixed;
+  background-color: #ffe7e8;
+
+  // .elipse {
+  //   position: absolute;
+
+  //   z-index: -1;
+  // }
+
+  // .new1 {
+  //   position: absolute;
+  //   left: 97%;
+  //   z-index: -1;
+  // }
+
+  &__wrap {
+    border: red 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .retail {
+      display: flex;
+      gap: 50px;
+
+      .shop {
+        .heading {
+          font-family: "Jost-Regular";
+          color: #3f4767;
+          font-size: 20px;
+          margin-bottom: 30px;
+        }
+
+        .span {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          width: 100px;
+          font-family: "Jost-Regular";
+          color: #9097af;
+          font-size: 15px;
+        }
+      }
+
+      .about {
+        .heading {
+          font-family: "Jost-Regular";
+          color: #3f4767;
+          font-size: 20px;
+          margin-bottom: 30px;
+        }
+
+        .span {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          width: 120px;
+          font-family: "Jost-Regular";
+          color: #9097af;
+          font-size: 15px;
+        }
+      }
+    }
+
+    .subscribe {
+      border: 1px red dotted;
+
+      
+    }
+
+    .find {
+      display: flex;
+      gap: 100px;
+      border: 1px green dotted;
+
+      .contact {
+        .heading {
+          font-family: "Jost-Regular";
+          color: #3f4767;
+          font-size: 20px;
+          margin-bottom: 30px;
+        }
+
+        .span {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          width: 100px;
+          font-family: "Jost-Regular";
+          color: #9097af;
+          font-size: 15px;
+        }
+      }
+
+      .socials {
+        display: flex;
+        flex-direction: column;
+
+        .heading {
+          font-family: "Jost-Regular";
+          color: #3f4767;
+          font-size: 20px;
+          margin-bottom: 30px;
+        }
+
+        .span {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          width: 120;
+          font-family: "Jost-Regular";
+          color: #9097af;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
