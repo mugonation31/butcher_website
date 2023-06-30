@@ -5,17 +5,17 @@
   .logos {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 100px;
     justify-content: space-between;
     border: #dbdff0 1px solid;
     border-left: none;
     border-right: none;
-    width: 900px;
+    max-width: 900px;
     height: 120px;
     margin-top: 50px;
 
     img {
-      width: 100px;
+      max-width: 100px;
       height: 30px;
     }
   }

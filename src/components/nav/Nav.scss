@@ -4,7 +4,7 @@
   justify-content: space-between;
   background-color: #fff;
   padding: 10px 10px 10px 10px;
-  width: 1200px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 
@@ -36,7 +36,6 @@
 
       svg {
         width: 16px;
-        color: red;
       }
     }
 
@@ -46,19 +45,14 @@
 
       svg {
         width: 16px;
-        color: red;
       }
     }
   }
 
   &__actions {
     display: flex;
-    gap: 2px;
+    gap: 30px;
     justify-content: space-between;
-    width: 150px;
-
-    img {
-      width: 20px;
-    }
+    max-width: 150px;
   }
 }

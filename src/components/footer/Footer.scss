@@ -1,19 +1,15 @@
 .footer {
-  width: 100%;
+  max-width: 100%;
   margin-top: 150px;
   left: 0;
   bottom: 0;
   background-color: #ffe7e8;
 
   .elipse {
-    position: absolute;
     z-index: -1;
-    color: green;
   }
 
   .new1 {
-    // position: absolute;
-    // top: 40%;
     z-index: -1;
   }
 
@@ -42,7 +38,7 @@
           flex-direction: column;
           gap: 10px;
 
-          width: 100px;
+          max-width: 100px;
           font-family: "Jost-Regular";
           color: #9097af;
           font-size: 15px;
@@ -62,7 +58,7 @@
           flex-direction: column;
           gap: 10px;
 
-          width: 120px;
+          max-width: 120px;
           font-family: "Jost-Regular";
           color: #9097af;
           font-size: 15px;
@@ -147,7 +143,7 @@
           flex-direction: column;
           gap: 10px;
 
-          width: 100px;
+          max-width: 100px;
           font-family: "Jost-Regular";
           color: #9097af;
           font-size: 15px;
@@ -169,8 +165,7 @@
           display: flex;
           flex-direction: column;
           gap: 10px;
-
-          width: 120;
+          max-width: 120;
           font-family: "Jost-Regular";
           color: #9097af;
           font-size: 15px;

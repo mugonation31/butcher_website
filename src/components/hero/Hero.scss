@@ -12,8 +12,8 @@
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
-    // border: 1px solid red;
+    gap: 100px;
+    max-width: 1200px;
 
     .detail {
       .since {
@@ -31,7 +31,7 @@
           font-size: 40px;
           padding: 0;
           line-height: 45px;
-          width: 400px;
+          max-width: 400px;
           font-family: "Just-ExtraBold";
         }
       }
@@ -40,7 +40,7 @@
         color: #6f818d;
         font-family: "Jost-Regular";
         font-size: 18px;
-        width: 490px;
+        max-width: 490px;
         margin-top: 15px;
       }
 
@@ -51,7 +51,7 @@
         align-items: center;
         gap: 10px;
         height: 55px;
-        width: 220px;
+        max-width: 220px;
         margin-top: 25px;
         margin-left: 10px;
         border-radius: 30px;
@@ -61,7 +61,7 @@
         font-size: 15px;
 
         svg {
-          width: 18px;
+          max-width: 18px;
         }
       }
     }
@@ -73,18 +73,18 @@
       border: solid 1px #d8d8dc;
       border-right: none;
       height: 100px;
-      width: 30px;
+      max-width: 30px;
       margin-top: 25px;
 
       .two {
         display: flex;
-        gap: 50px;
+        gap: 100px;
 
         .capterra {
           display: flex;
           flex-direction: column;
           gap: 5px;
-          width: 250px;
+          max-width: 300px;
 
           .stars {
             display: flex;
@@ -95,6 +95,7 @@
           span {
             color: #383e56;
             font-family: "Jost-Bold";
+            width: 200px;
           }
         }
 
@@ -102,7 +103,7 @@
           display: flex;
           flex-direction: column;
           gap: 5px;
-          width: 250px;
+          max-width: 300px;
 
           .stars {
             display: flex;
@@ -113,6 +114,7 @@
           span {
             color: #383e56;
             font-family: "Jost-Bold";
+            width: 200px;
           }
         }
       }

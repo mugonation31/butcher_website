@@ -58,6 +58,7 @@ export default function Footer() {
             <div className="span">
               <span>HelloMeat@gmail.com</span>
               <span>Opening Hours</span>
+
               <span>Location</span>
               <span>097 56568 77</span>
             </div>

@@ -29,7 +29,8 @@
     .scroll {
       display: flex;
       align-items: center;
-      width: 985px;
+      max-width: 1200px;
+      gap: 600px;
       justify-content: space-between;
 
       .who {

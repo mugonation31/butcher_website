@@ -4,7 +4,7 @@
   .rectangle {
     position: absolute;
     z-index: -1;
-    width: 564px;
+    max-width: 565px;
   }
 
   .diamond {
@@ -28,7 +28,7 @@
       h1 {
         color: #272d41;
         line-height: 30px;
-        max-width: 250px;
+        max-width: 240px;
         font-size: 22px;
       }
 
@@ -36,7 +36,7 @@
         color: #656d89;
         display: inline-block;
         font-family: "Jost-Regular";
-        width: 438px;
+        max-width: 438px;
       }
     }
   }

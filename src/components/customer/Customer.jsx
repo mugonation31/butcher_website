@@ -19,7 +19,7 @@ export default function Customer() {
       <div className="customer__feedback">
         <div className="picture">
           <img src={gouch} alt="" className="gouch" />
-          <img src={quote} alt="" className="quote" />
+          {/* <img src={quote} alt="" className="quote" /> */}
         </div>
         <div className="testimonial">
           <div className="rating">
