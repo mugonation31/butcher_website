@@ -1,16 +1,23 @@
 .footer {
   max-width: 100%;
+  padding-top: 100px;
+  padding-bottom: 50px;
   margin-top: 150px;
   left: 0;
   bottom: 0;
-  background-color: #ffe7e8;
+  background-color: #fff4f6;
+  position: relative;
 
   .elipse {
-    z-index: -1;
+    position: absolute;
+    top: 330px;
+    left: 30px;
   }
 
   .new1 {
-    z-index: -1;
+    position: absolute;
+    top: 30px;
+    left: 68%;
   }
 
   &__wrap {

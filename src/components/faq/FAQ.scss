@@ -1,5 +1,6 @@
 .faq {
   margin-top: 100px;
+  position: relative;
 
   .cheese {
     position: absolute;
@@ -16,8 +17,7 @@
 
   .bone {
     position: absolute;
-    left: 88%;
-
+    left: 84%;
     z-index: -1;
   }
 
