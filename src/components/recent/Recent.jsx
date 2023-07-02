@@ -1,6 +1,9 @@
 import React from "react";
 import "./Recent.scss";
-import beef from "../../assets/images/beef.png";
+import bp1 from "../../assets/images/bp1.png";
+import bp2 from "../../assets/images/bp2.png";
+import bp3 from "../../assets/images/bp3.png";
+import bp4 from "../../assets/images/bp4.png";
 
 export default function Recent() {
   return (
@@ -16,7 +19,7 @@ export default function Recent() {
 
       <div className="products__purchase">
         <div className="buy">
-          <img src={beef} alt="" />
+          <img src={bp1} alt="" />
 
           <div className="info">
             <span>BEEF FOR NUTRITIONS</span>
@@ -29,7 +32,7 @@ export default function Recent() {
           </div>
         </div>
         <div className="buy">
-          <img src={beef} alt="" />
+          <img src={bp2} alt="" />
 
           <div className="info">
             <span>BEEF FOR NUTRITIONS</span>
@@ -42,7 +45,7 @@ export default function Recent() {
           </div>
         </div>
         <div className="buy">
-          <img src={beef} alt="" />
+          <img src={bp3} alt="" />
 
           <div className="info">
             <span>BEEF FOR NUTRITIONS</span>
@@ -55,7 +58,7 @@ export default function Recent() {
           </div>
         </div>
         <div className="buy">
-          <img src={beef} alt="" />
+          <img src={bp4} alt="" />
 
           <div className="info">
             <span>BEEF FOR NUTRITIONS</span>
