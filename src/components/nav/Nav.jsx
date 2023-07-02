@@ -3,12 +3,17 @@ import "./Nav.scss";
 import user from "../../assets/images/user.svg";
 import heart from "../../assets/images/heart.svg";
 import shopping from "../../assets/images/shopping-bag.svg";
+import hamburger from "../../assets/images/hamburger.png";
 
 export default function Nav() {
   return (
     <nav className="nav">
+      <input type="checkbox" class="nav__toggle" id="hamburger" hidden />
       {/* lOGO START HERE */}
       <div className="nav__logo">
+        <label for="hamburger">
+          <img src={hamburger} alt="" />
+        </label>
         <span className="name1">MEAT</span>
         <span className="name2">FIT</span>
       </div>
