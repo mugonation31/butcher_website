@@ -11,7 +11,7 @@ export default function Nav() {
       <input type="checkbox" class="nav__toggle" id="hamburger" hidden />
       {/* lOGO START HERE */}
       <div className="nav__logo">
-        <label for="hamburger">
+        <label for="hamburger" className="hamburger">
           <img src={hamburger} alt="" />
         </label>
         <span className="name1">MEAT</span>
