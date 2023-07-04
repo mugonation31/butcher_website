@@ -4,18 +4,22 @@ import user from "../../assets/images/user.svg";
 import heart from "../../assets/images/heart.svg";
 import shopping from "../../assets/images/shopping-bag.svg";
 import hamburger from "../../assets/images/hamburger.png";
+import Logo from "../../assets/images/Logo.png";
 
 export default function Nav() {
   return (
     <nav className="nav">
       <input type="checkbox" class="nav__toggle" id="hamburger" hidden />
+
+      <label for="hamburger" className="hamburger">
+        <img src={hamburger} alt="" />
+      </label>
+
       {/* lOGO START HERE */}
       <div className="nav__logo">
-        <label for="hamburger" className="hamburger">
-          <img src={hamburger} alt="" />
-        </label>
-        <span className="name1">MEAT</span>
-        <span className="name2">FIT</span>
+        {/* <span className="name1">MEAT</span>
+        <span className="name2">FIT</span> */}
+        <img src={Logo} alt="" className="logo" />
       </div>
       {/* lOGO ENDS HERE */}
 
