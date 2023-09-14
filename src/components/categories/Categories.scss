@@ -39,8 +39,8 @@
 
   &__meats {
     display: flex;
-    justify-content: space-between;
     margin-top: 50px;
+    gap: 30px;
 
     .beef {
       h1 {

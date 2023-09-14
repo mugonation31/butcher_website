@@ -133,4 +133,46 @@
       border: solid 1px blue;
     }
   }
+
+  @media only screen and (max-width: 1096px) {
+    .hero {
+      &__steak {
+        max-width: 300px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 788px) {
+    .hero {
+      &__steak {
+        max-width: 250px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 744px) {
+    .hero {
+      &__inner {
+        .detail {
+          margin-right: 210px;
+          max-width: 450px;
+        }
+      }
+
+      &__steak {
+        display: none;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 673px) {
+    .hero {
+      &__inner {
+        .detail {
+          margin-right: 205px;
+          border: 1px green dotted;
+        }
+      }
+    }
+  }
 }
